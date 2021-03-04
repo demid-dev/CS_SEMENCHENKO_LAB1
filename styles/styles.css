@@ -1,0 +1,17 @@
+.textInfoArea{
+    margin-top: 10px;
+}
+
+#textInfo{
+    width: 500px;
+    height: 600px;
+}
+
+.encodedArea{
+    margin-top: 10px;
+}
+
+#encodedText{
+    width: 500px;
+    height: 300px;
+}

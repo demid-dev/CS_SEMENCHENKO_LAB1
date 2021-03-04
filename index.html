@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="text">
+        <p style="font-weight: bold;">Select file to analyse:</p>
+        <input type="file" id="infoFile" multiple>
+        <div class="textInfoArea">
+            <textarea id="textInfo"></textarea>
+            <p id="entropy"></p>
+            <p id="infoQuantity"></p>
+            <p id="fileSize"></p>
+        </div>
+    </div>
+    <div class="base64">
+        <p style="font-weight: bold;">Select file to encode:</p>
+        <input type="file" id="encoded" multiple>
+        <div class="encodedArea">
+            <textarea id="encodedText"></textarea>
+        </div>
+        <div id="downloadLink">
+
+        </div>
+    </div>
+</body>
+
+<script type="module" src="/js/Analyse.js"></script>
+<script type="module" src="/js/Encode.js"></script>
+
+</html>
